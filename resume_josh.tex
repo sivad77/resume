@@ -1,0 +1,95 @@
+\documentclass[10pt,a4paper]{moderncv}
+\moderncvtheme[grey]{classic}
+\usepackage[utf8]{inputenc}
+
+\usepackage[scale=0.9]{geometry}
+\recomputelengths 
+
+
+\newcommand{\rdated}[4]{
+  \cvline{#1}{\textbf{#2}, \textit{#3} \hfill #4}
+}
+
+\firstname{Joshua}
+\familyname{Davis}
+\mobile{1-646-266-7445}
+\email{sivad77@gmail.com}
+
+\begin{document}
+\maketitle
+
+\section{PERSONAL INFORMATION}
+\cvline{Citizenship}{A dual American and Australian citizen.}
+
+\section{EDUCATION}
+
+\rdated{02/04 - 06/08}{Bachelor of Science}{Monash University}{Melbourne, Victoria, Australia}
+\cvitem{Majors}{Computer Science and Mathematics}
+\cvitem{Coursework}{Included: data structures and algorithms;
+programming languages and implementation; computer graphics; image processing;
+software engineering; parallel computing; partial differential equations;
+computational mathematics; atmospheric science; biology; histology.}
+\cvitem{Awards}{Letter of excellence for highest grade in image processing (grade 93\%).}
+
+\subsection{}
+\rdated{10/03}{Victorian Certificate of Education}{Caulfield Grammar School}{Melbourne, Victoria, Australia}
+\cvitem{Awards}{Received the ``Daryl Rosenfield Memorial Prize" for Information Technology in year 12, Caulfield Grammar School Certificate of Excellence and Emblem for $2^{nd}$ VIII Rowing.}
+
+\section{EMPLOYMENT HISTORY}
+
+\rdated{06/08 - 01/11}{Software Developer}{Integrated Application Development}{Melbourne, Victoria, Australia}
+\cvitem{Technologies}{Delphi, Firebird, Linux, KVM, QATime and Git}
+\cvitem{Description}{An Australian firm that develops portfolio management
+software for a British client with over 10 billion pounds of funds under administration.}
+\cvitem{Role}{Tools and framework teams, focusing on clean, simple, efficient code:
+\begin{itemize}
+\item Narrowed the database object framework API without lose of functionality (lead to easier maintenance).
+\item Introduced compression into the logging framework resulted in a 10x space saving for log files.
+\item Simplified the log viewer with over 120x speedup (from over 10 minutes to seconds to view large log files).
+\item Ensured all bugs were allocated before the start of the work day (followed from log framework improvements).
+\item Disentangled legacy code (FoxPro) into a straightforward framework.
+\item Improved the robustness of the unit-test framework (inculded removing GUI and popup windows, added parallelism to framework and crash protection with sandboxing).
+\item Decreased the overnight build time to under an hour (included running all unit-tests) which previously never reliably completed (utilized parallelism which lead to the dramatic speedup).
+\item Lead the adoption of Git which included developing a work flow, migrated 10 years of development history from Starteam, set up the infrastructure and initial staff training.
+\item Encouraged developers to employ test driven development coupled with writing clear, simple, efficient code.
+\end{itemize}
+}
+
+\subsection{}
+\rdated{01/04 - 10/07}{Laborer}{Fendon Fences}{Melbourne, Victoria, Australia}
+\cvitem{Description}{Worked 30 hours a week during university.}
+
+\newpage
+
+\section{TECHNICAL SKILLS}
+
+\cvitem{Principles}{Test Driven Development, Continuous Integration, Object Oriented Design and Project Tracking (JIRA).}
+\cvitem{Platforms}{Proficient in Linux (all flavors on x86) and Windows (Delphi IDE and Visual Studio).\newline{} Knowledgeable in Mac OSX (XCode) and *BSD.}
+\cvitem{Languages}{Proficient in C, Delphi, Python, Perl and Bash.\newline{} Knowledgeable in Java, Javascript, C++, Ruby, Go, SML, PHP and SQL (Firebird dialect)}
+\cvitem{Web}{Knowledgeable in XML, JSON, CSS and XHTML.}
+\cvitem{Tools}{Proficient in git, StarTeam, QATime, gcc, vim, make, \LaTeX, Firebird and general unix command-line tools.\newline{} Knowledgeable in KVM, gprof, Samba, rsync, cron, NFS, MySQL and GNUPlot.}
+\cvitem{Libraries}{Knowledgeable in GTK, clutter, zLib, elightenment and OpenGL.}
+\cvitem{Mathematics}{Knowledgeable in numerical computing, ordinarily and partial differential equations and abstract algebra.}
+
+\section{GENERAL SKILLS}
+
+\cvitem{}{
+\begin{itemize}
+\item I love to learn!
+\item Strong verbal and written communication skills.
+\item Excellent troubleshooting and debugging skills.
+\item Fast learner.
+\item Flexible.
+\end{itemize}
+}
+ 
+\section{INTERESTS}
+\cvitem{}{Board games, camping, peanut butter chocolate chip cookies, travel, cycling, running, weight training, fishing, and open source software.}
+
+
+
+
+
+
+
+\end{document}
